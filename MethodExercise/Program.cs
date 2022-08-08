@@ -11,8 +11,8 @@ namespace MethodExercise
         static int Mod(int num1, int num2) { return num1 % num2; }
         static void Main(string[] args)
         {
-           Console.WriteLine($"Lucky number is always { AddSum(3, 4)}");
-           Console.WriteLine($"If you multiply you lucky number which is {AddSum(3, 4)} by itself you get {Multiply(7, 7)}");
+           Console.WriteLine($"Our lucky number should always { AddSum(3, 4)}");
+           Console.WriteLine($"If you multiply our lucky number which is {AddSum(3, 4)} by itself you get {Multiply(7, 7)}");
             Console.WriteLine($"Lets go back to our lucky number {Divide(49,7)}");
             Console.WriteLine($"Well any number is ok even {Subtract(7, 7)}, they are all important.");
             Console.WriteLine($"7 goes into 49 evenly, when you divide it the remainder is {Mod(49,7)}");
